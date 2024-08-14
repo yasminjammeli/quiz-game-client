@@ -1,0 +1,126 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-timer {
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.quiz-timer span{
+    color: red;
+}
+
+.section {
+    display: flex;
+    margin-left: 50px;
+}
+
+.section img {
+    width: 340px;
+    height: 190px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    object-fit: cover;
+}
+
+.section-right {
+    width: 700px;
+}
+
+.section-right h3 {
+    margin-left: 58px;
+    color: #696F79;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-right p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.topic h3 {
+    margin-left: 50px;
+    color: #696F79;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.answer-options {
+    margin-left: 50px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.answer-options li {
+    display: flex; /* Pour aligner les éléments sur la même ligne */
+    align-items: center; /* Aligne verticalement le texte */
+    margin-bottom: 5px;
+}
+
+
+.answer-options span {
+    margin-top: -20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+strong{
+    margin-left: 50px;
+}
+.answer-options input[type="radio"] {
+    appearance: none; 
+    width: 15px; 
+    height: 15px; 
+    border: 2px solid #000; 
+    border-radius: 50%; 
+    outline: none; 
+    cursor: pointer; 
+    position: relative;
+}
+
+.answer-options input[type="radio"]:checked::after {
+    content: ''; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    width: 6px; 
+    height: 6px; 
+    border-radius: 50%; 
+    background-color: #333;
+    transform: translate(-50%, -50%); 
+}
+
+.answer-options strong {
+    color: green; /* Optionnel : changez la couleur pour différencier le texte */
+}
+
+.btn {
+    margin-left: 800px;
+}
+.navigation-buttons
+{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:810px) {
+    .section img{
+        width: 280px;
+        height: 140px;
+        margin-left: -30px;
+    }
+    .section-right p{
+        margin-left: 50px !important;
+        font-size: 12px !important;
+    }
+}
+@media(max-width:655px){
+    .section img{
+        width: 220px;
+        height: 110px;
+    }
+}

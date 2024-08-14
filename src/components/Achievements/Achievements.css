@@ -1,0 +1,243 @@
+.achievements-section{
+    display: flex;
+    position: absolute;
+    top: 45%;
+    margin-left: 3%;
+}
+.achievements-container{
+    width: 450px;
+}
+.head-achievements{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+.achievements-container h2{
+    padding-top: 0;
+    font-size: 26px;
+    color: #696F79;
+    text-align: start;
+}
+.min-slide{
+    width: 152px;
+}
+.min-top{
+    width: 95px;
+}
+.achievements{
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+    background:#fff;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 425px;
+    height: 210px;
+}
+.achievement{
+    font-size: 13px;
+    text-align: center;
+    color: #696F79;
+}
+.badge-1{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.badge-2{
+    position: absolute;
+    top: 26%;
+    left: 74%;
+}
+.badge-3{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 420px;
+    padding: 12px;
+    font-size: 14px;
+    color: #696F79;
+    text-align: center;
+}
+.footer p{
+    padding-top: 10px;
+    cursor: pointer;
+}
+@media (max-width:1200px){
+    .achievements-container{
+        width: 400px;
+    }
+    .achievements{
+        width: 300px;
+    }
+    .achievements-container h2{
+        font-size: 20px;
+    }
+    .badge-1{
+        left: 4%;
+    }
+    .badge-2{
+        left: 49%;
+    }
+    .badge-3{
+        left: 28%;
+    }
+    .footer{
+        width: 300px;
+    }
+    .min-slide{
+        width: 100px;
+        margin-left: -20px;
+    }
+    .min-top{
+        width: 55px;
+        margin-left: -20px;
+    }
+}
+@media(max-width:933px){
+    .achievements{
+        width: 250px;
+    }
+    .achievements-container{
+        width: 350px;
+    }
+    .achievements-container h2{
+        font-size: 16px;
+    }
+    .badge-1{
+        left: 2%;
+    }
+    .badge-2{
+        left: 44%;
+    }
+    .badge-3{
+        top: 45%;
+        left: 25%;
+    }
+    .footer{
+        width: 250px;
+    }
+    .min-slide{
+        width: 90px;
+        margin-left: -25px;
+        margin-top: -0.5px;
+    }
+    .min-top{
+        width: 45px;
+        margin-left: -25px;
+    }
+}
+@media(max-width:790px){
+    .achievement img{
+        width: 40px;
+        height: 50px;
+    }
+    .achievements{
+        width: 200px;
+    }
+    .badge-1{
+        left: 2%;
+        top: 20%;
+    }
+    .badge-2{
+        left: 44%;
+        top: 21%;
+    }
+    .badge-3{
+        left: 27%;
+        top: 45%;
+    }
+    .footer{
+        width: 200px;
+    }
+    .min-slide{
+        width: 60px;
+        margin-left: -28px;
+        margin-top: -0.5px;
+    }
+    .min-top{
+        width: 40px;
+        margin-left: -28px;
+    }
+    .achievements-container{
+        width: 300px;
+    }
+}
+
+@media(max-width:680px){
+    .achievement img{
+        width: 30px;
+        height: 40px;
+    }
+    .achievements{
+        width: 170px;
+    }
+    .badge-1{
+        left: 3%;
+        top: 20%;
+    }
+    .badge-2{
+        left: 44%;
+        top: 20%;
+    }
+    .badge-3{
+        left: 27%;
+    }
+    .footer{
+        width: 150px;
+    }
+    .min-slide{
+        width: 40px;
+        margin-left: -27px;
+        margin-top: -0.5px;
+    }
+    .min-top{
+        width: 25px;
+        margin-left: -27px;
+    }
+    .achievements-container{
+        width: 250px;
+    }
+}
+@media(max-width:610px){
+    .achievement img{
+        width: 25px;
+        height: 30px;
+    }
+    .achievements{
+        width: 150px;
+    }
+    .achievement p{
+        font-size: 12px;
+    }
+    .badge-1{
+        left: 3%;
+        top: 30%;
+    }
+    .badge-2{
+        left: 44%;
+        top: 30%;
+    }
+    .badge-3{
+        left: 27%;
+        top: 55%;
+    }
+    .footer{
+        width: 150px;
+    }
+    .min-slide{
+        width: 30px;
+        margin-left: -27px;
+        margin-top: -0.5px;
+    }
+    .min-top{
+        width: 20px;
+        margin-left: -27px;
+    }
+    .achievements-container{
+        width: 200px;
+    }
+}

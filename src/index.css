@@ -1,0 +1,22 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 80vh;
+}
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

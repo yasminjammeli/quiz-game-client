@@ -1,0 +1,137 @@
+.dashboard{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #FBF9F9;
+    height: 86.5vh;
+    width: 18%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+    flex: 1;
+    
+}
+.side{
+    border-radius: 50px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #696F79;
+    font-size: 14px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.dots{
+    display: flex;
+    
+}
+.dot-1{
+    background:#696F79;
+    border-radius: 2px;
+    width: 6px;
+    height: 16px;
+    margin-right: 0.5px;
+    margin-bottom: 1px;
+}
+.dot-2 , .dot-3{
+    background-color: #696F79;
+    width: 6px;
+    height: 6px;
+    border-radius: 2px;
+}
+.dot-3{
+    margin-top: 1px;
+    height: 9px;
+}
+.active{
+    background: #696F79;
+    color: #fff;
+}
+.side.active .dot-1,
+.side.active .dot-2,
+.side.active .dot-3 {
+  background-color: #fff; 
+} 
+.side p{
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.log-out{
+    margin-top: 45vh;
+    cursor: pointer;
+    background: #FBF9F9;
+    color: #696F79;
+    font-size: 14px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.log-out:hover{
+    background: #696F79;
+    color: #FBF9F9;
+    transform: 0;
+}
+.fa-rotate-180{
+    font-size: 20px;
+    margin-right: 20px;
+}
+@media (max-width:1200px){
+    .sidebar{
+        margin-left: 10px;
+    }
+}
+@media (max-width:933px){
+    .side{
+        width: 90%;
+        font-size: 12px;
+        left: 0;
+        gap: 8px;
+    }
+    .sidebar{
+        margin-left: 0px;
+    }
+    .dash{
+        display:none;
+        
+    }
+    .side{
+        width: 50%;
+        margin-left: 30px;
+    }
+    .log-out{
+        width: 130px;
+    }
+}
+@media(max-width:600px){
+    .sidebar{
+        margin-left: 0px;
+    }
+    .side{
+        width: 100%;
+        font-size: 16px;
+        left: 0;
+        gap: 5px;
+        margin-left: 0;
+    }
+    .dash{
+        display:none;
+        
+    }
+    .log-out{
+        width: 80px;
+    }
+}
